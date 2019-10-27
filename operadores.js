@@ -129,3 +129,30 @@ let numeroDeClienteIngresado = '143245';
 console.log("El número ingresado por el cliente es correcto: ", numeroDeCliente == numeroDeClienteIngresado);
 
 console.log("El cliente ingresó un número de cliente válido:", numeroDeCliente === numeroDeClienteIngresado);
+
+
+//Ejercicio 36
+//Aclaro que cambio nombre de variables porque en ejercicio 27 usamos mismos nombres
+
+let numeroUno
+
+let numeroDos
+
+numeroUno = 10
+
+numeroDos = 20
+
+console.log("La variable numeroUno y numeroDos tienen el mismo valor", numeroUno == numeroDos);
+
+console.log("La variable numeroUno y numeroDos son distintas", numeroUno != numeroDos);
+
+
+//Ejercicio 37
+
+let promedioParaAprobar
+
+let promedioDelAlumno
+
+promedioParaAprobar = 6
+
+promedioDelAlumno = 4
