@@ -118,7 +118,17 @@ ganancias = 600;
 
 impuestos = 500;
 
+let objetivosDeIngresos = 800;
 
+let objetivosDeImpuestos = 400;
+
+let bonoDeGanancias = 600;
+
+console.log("Objetivo de ingresos: " + (ingresos >= objetivosDeIngresos))
+
+console.log("Objetivo de impuestos: " + (impuestos < objetivosDeImpuestos))
+
+console.log("Bono de ganancias: " + (bonoDeGanancias === ganancias))
 
 //Ejercicio 35
 
@@ -156,3 +166,9 @@ let promedioDelAlumno
 promedioParaAprobar = 6
 
 promedioDelAlumno = 4
+
+console.log("El alumno tiene un promedio mayor o igual que el requerido: " + (promedioDelAlumno >= promedioParaAprobar));
+
+let puntos = promedioParaAprobar - promedioDelAlumno
+
+console.log(`Al alumno le faltaron ${puntos} para aprobar`);
